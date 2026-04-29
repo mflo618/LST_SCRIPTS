@@ -71,14 +71,21 @@ python phi_gram_ref.py --harmonics 6,7 --group su3 --cesaro-start-T --check-dyna
 
 # 2 – LST_FU_Alpha_FSC/README_AUDIT.md
 
-**At a glance (expected outputs):**
+At a glance (expected outputs):
 
-* `python alpha_from_scale.py --scale 240.463` → **α⁻¹ ≈ 136.760142…**
-* `python scale_from_alpha.py --alpha-inv 137.035999084` → **Scale ≈ 240.7053948116…** (closure)
-* `python robustness_sweep.py …` → log–log slope **≈ 2.0**
-* `python static_guard_all.py …` → **no AST-level hits** (token hits in comments are informational)
+* `python derive_scale_alpha_relational.py --json relational_scale_prediction.json`
+  → `Scale_alpha,pred ≈ 240.739008512`, `alpha_inv_pred ≈ 137.074274991`
 
-**What this proves:** Predictivity from α-free inputs, non-circularity, stability of the mapping, and traceability (manifests + checksums).
+* `python scale_from_alpha.py --alpha-inv 137.035999084`
+  → `Scale_alpha,target ≈ 240.705394812` round-trip inversion reference
+
+* `python alpha_from_scale.py --scale 240.463`
+  → legacy supplied-scale audit baseline, `alpha_inv ≈ 136.760142`
+
+* `python static_guard_all.py ...`
+  → verifies α-free identifier discipline in K/prediction-path modules
+
+What this proves: relational-recursion prediction of the Thomson U(1) interface scale, non-circular closure arithmetic, branch comparison against the relative-deficit alternative, and traceability through audit scripts.
 
 **Next:** go to **3 – LST_FU_ProofPack_A_v3** for β/bridge and Mass→CKM.
 
