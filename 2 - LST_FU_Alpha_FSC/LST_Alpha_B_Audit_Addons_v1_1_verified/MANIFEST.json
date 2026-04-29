@@ -1,0 +1,101 @@
+{
+  "generated_utc": "2026-04-29T18:31:54Z",
+  "note": "CHECKSUMS.txt excludes CHECKSUMS.txt and MANIFEST.json to avoid self-referential hashes.",
+  "files": [
+    {
+      "name": "CHECKSUMS.txt",
+      "bytes": 1660,
+      "sha256": "9e42120cdfbf6b9264f990287ad04795823496c21ae94371a92b958d5bcdc9b7"
+    },
+    {
+      "name": "HOW_TO_VERIFY.md",
+      "bytes": 5027,
+      "sha256": "dbc3d347e079c12fbbc218d3d5e173a7a6a601a0db0397fbaed3f5b2c8454b36"
+    },
+    {
+      "name": "MANIFEST.json",
+      "bytes": 3031,
+      "sha256": "9609506cd0701a8882b1072febf389faf4a39ff460f7b85e5aba72ebe6d86480"
+    },
+    {
+      "name": "README_AUDIT.md",
+      "bytes": 18546,
+      "sha256": "d769c1c1301331651805936f78be9d32f711c4d25320440ffed4c4e9f32275e2"
+    },
+    {
+      "name": "RUN_AUDIT_SUITE.sh",
+      "bytes": 2114,
+      "sha256": "d34eb1e5a62d2e06df345844e9ee19f8ef5d367dd296f35cc2ca429ac5befb44"
+    },
+    {
+      "name": "alpha_from_scale.py",
+      "bytes": 886,
+      "sha256": "0e9bae462b55c4ea3aac3ac51897c7f737be24e06e3225645d03b3f1c7db73ae"
+    },
+    {
+      "name": "alt_hypothesis_sweep.py",
+      "bytes": 1797,
+      "sha256": "c6f46928686ce8a8b4264cff8c03f2de3da711cc3d3c2c59fd3c78e442daf492"
+    },
+    {
+      "name": "density_certificate_v2.py",
+      "bytes": 792,
+      "sha256": "ddb95c090ba79769142a637d4e3132038dba02f6ca74250866ec751071cfcdc1"
+    },
+    {
+      "name": "derive_scale_alpha_relational.py",
+      "bytes": 7823,
+      "sha256": "c3f8b5b2de90f9e91d5a60dcf44ea7028099eb77b3184a7bbf065f84edccbbad"
+    },
+    {
+      "name": "electron_density_certificate.py",
+      "bytes": 503,
+      "sha256": "c352ce3ec7b5068f1968803d4f25e993aadcdfc9d0a0c31af8fe928cff237759"
+    },
+    {
+      "name": "g_electron.py",
+      "bytes": 544,
+      "sha256": "a3863b8328ba271e1a43506198a0f36c32e22a6eec6d66247a1bb19eeb9007b9"
+    },
+    {
+      "name": "independent_scale.euler_corkscrew.json",
+      "bytes": 410,
+      "sha256": "25068f83ef527a4887a5285bf7c2c32cd2bec050520562510b61d22b6123c942"
+    },
+    {
+      "name": "independent_scale.sample.json",
+      "bytes": 238,
+      "sha256": "aeac43d8d90aff28cebe380de80764646a191e97e77a646cd1064d5cc435f36f"
+    },
+    {
+      "name": "lst_sigma_em0.py",
+      "bytes": 613,
+      "sha256": "1d1c6690d95de29bfcda929c9a94deab014cd282c8ee01778129be36df302549"
+    },
+    {
+      "name": "robustness_sweep.py",
+      "bytes": 1539,
+      "sha256": "4e8b6a1eebb595103f9309a9e14f93189d3735c8628115b4c71eac0eee37670d"
+    },
+    {
+      "name": "scale_from_alpha.py",
+      "bytes": 934,
+      "sha256": "5a239891fcdbe5200b21a8b0ec79c6f4bd974cad432f6e37386953b7404956b8"
+    },
+    {
+      "name": "scale_from_independent_inputs.py",
+      "bytes": 1684,
+      "sha256": "b1c19073a8dfe91d9fdbddc1a8fdba60b3c2c69db8272501d0eb0e530c0e2393"
+    },
+    {
+      "name": "static_guard_all.py",
+      "bytes": 2200,
+      "sha256": "41123fdd035e999c4c8c635504d90ebbe17d41a0e944334470283881be4293d4"
+    },
+    {
+      "name": "uncertainty_budget.py",
+      "bytes": 1802,
+      "sha256": "a7f266ec48e02e2ce6ad612e494cadbe14d5dfbf560430e3f08a6cbef82b4783"
+    }
+  ]
+}

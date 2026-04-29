@@ -1,0 +1,13 @@
+{
+  "scale": "240.7014205",
+  "formula": "phi^(4phi) * 2*pi*phi * exp(1/20)",
+  "components": {
+    "mass_scale": "phi^(4phi)",
+    "u1_cycle_lift": "2*pi",
+    "phi_sheet_lift": "phi",
+    "euler_corkscrew_holonomy": "exp(1/20)"
+  },
+  "alpha_free": true,
+  "status": "conjectural derivation candidate",
+  "provenance": "Euler-corkscrew Thomson sheet lift candidate; replaces sample-only placeholder scale"
+}
